@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  /* background-color: #282d35; */
+}
+
+.app--nav {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 55px;
+  background: #f55a5a;
+}
+
+.nav--logo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin: 15px auto 20px auto;
+}
+
+.logo--text {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 20px;
+  padding-left: 30px;
+}
+
+.card {
+  margin: auto;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: ghostwhite; */
+  width: 750px;
+  /* height: 250px; */
+  /* align-items: center; */
+}
+
+.card--img {
+  position: relative;
+  width: 200px;
+  height: 280px;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-weight: bold;
+}
+.card--into {
+  /* justify-content: center; */
+}
+
+.div--text {
+  max-width: 400px;
+}
+
+hr {
+  width: 748px;
+}
